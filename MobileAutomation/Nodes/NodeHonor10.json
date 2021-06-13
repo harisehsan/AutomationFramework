@@ -1,0 +1,22 @@
+{
+  "capabilities": [{
+    "browserName": "Android",
+    "version": "9",
+    "maxInstances": 1,
+    "platform": "ANDROID"
+  }
+  ],
+  "configuration": {
+    "cleanUpCycle": 2000,
+    "timeout": 30000,
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "url": "http://0.0.0.0:4750/wd/hub",
+    "maxSession": 1,
+    "port": "4750",
+    "host": "0.0.0.0",
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": "4444",
+    "hubHost": "127.0.0.1"
+  }
+}

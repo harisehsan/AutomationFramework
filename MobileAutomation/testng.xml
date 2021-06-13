@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BDD Test Suite" verbose="1" parallel="tests" thread-count="2">
+
+    <test name="Honor 8">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="deviceName" value="HUAWEI FRD-L19"/>
+        <parameter name="platformVersion" value="7"/>
+        <parameter name="udid" value="P6LDU17113003345"/>
+        <parameter name="port" value="4760"/>
+        <parameter name="systemPort" value="8210"/>
+        <classes>
+            <class name="global.APP.starter.Runner"/>
+        </classes>
+    </test>
+
+    <test name="Honor 10">
+        <parameter name="platformName" value="Android"/>
+        <parameter name="deviceName" value="HUAWEI COL-L29"/>
+        <parameter name="platformVersion" value="9"/>
+        <parameter name="udid" value="UEEDU18526003357"/>
+        <parameter name="port" value="4760"/>
+        <parameter name="systemPort" value="8200"/>
+        <classes>
+            <class name="global.APP.starter.Runner"/>
+        </classes>
+    </test>
+
+
+</suite>
